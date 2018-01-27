@@ -1,0 +1,3 @@
+root
+root
+jdbc:mysql://localhost/mydb
