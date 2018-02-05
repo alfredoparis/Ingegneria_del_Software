@@ -16,81 +16,18 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
           <link rel="stylesheet" href="bootstrap.css">
           <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+          <link rel="stylesheet" type="text/css" href="stile_single_cluster.css">
         <!-- Font Awesome -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
         <style>
 
         @import url(http://fonts.googleapis.com/css?family=Roboto:400,500,700,300,100);
 
-        .robo {border-style: solid;
-           border-radius: 3px 3px 3px 3px;
-        -moz-border-radius: 3px 3px 3px 3px;
-        -webkit-border-radius: 3px 3px 3px 3px;
-        border: 1px solid #000000;
-
-         margin-right: 3px;
-         margin-top:1%;
-         margin-left: 3%;
-
-         -webkit-box-shadow: 0px 7px 24px -6px rgba(0,0,0,0.75);
-        -moz-box-shadow: 0px 7px 24px -6px rgba(0,0,0,0.75);
-        box-shadow: 0px 7px 24px -6px rgba(0,0,0,0.75);
-
-
-         }
-         h4 {
-             text-align: center;
-         }
-
-        .stylish-input-group .input-group-addon{
-            background: white !important;
-        }
-        .stylish-input-group .form-control{
-            border-right:0;
-          box-shadow:0 0 0;
-          border-color:#ccc;
-        }
-        .stylish-input-group button{
-            border:0;
-            background:transparent;
-        }
-        h3 {
-            text-align: center;
-        }
-
-        #imaginary_container{
-
-            margin-top:5%;
-          margin-left:10px;
-        }
-
-        .alignright {
-            float: right;
-            margin-right : 20px;
-            color: black; }
-
-            body {
-              background-color: white;
-              font-family: "Roboto", helvetica, arial, sans-serif;
-              font-size: 20px;
-              font-weight: 100;
-              text-rendering: optimizeLegibility;
-            }
-
-            .texto{
-              font-family: "Roboto", helvetica, arial, sans-serif;
-              font-size: 15px;
-              font-weight: 100;
-              text-rendering: optimizeLegibility;
-
-             text-align: right;
-             font-weight: bold;
-
-            }
+        
         </style>
           <link rel="stylesheet" href="style.css">
 
-        <link rel="stylesheet" href="style.css">
+        
         <title>Single Cluster</title>
 
 
@@ -105,7 +42,7 @@
             int id=Integer.parseInt(request.getParameter("cluster"));
              String user="root";
              String pass="root";
-             String url="jdbc:mysql://localhost/RobotDB";
+             String url="jdbc:mysql://localhost/RobotDB5";
              Connection c;
              Class.forName("com.mysql.jdbc.Driver");
              c=DriverManager.getConnection(url,user,pass);
@@ -127,7 +64,7 @@
             out.print("<div class=\"input-group stylish-input-group input-append\">");
 
         %>
-            <input type="number" class="form-control"  name="ir" placeholder="Valore IR" min="0" max="100" oninput="setCustomValidity('')" required oninvalid="this.setCustomValidity('Inserire valore IR')">
+            <input type="text" class="form-control"  name="ir" placeholder="Valore IR" min="0" max="100" oninput="setCustomValidity('')" required oninvalid="this.setCustomValidity('Inserire valore IR')">
             <span class="input-group-addon">
                 <button type="submit">
                     <span class="glyphicon glyphicon-check"></span>

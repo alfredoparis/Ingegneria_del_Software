@@ -1,0 +1,65 @@
+.robo {border-style: solid;
+           border-radius: 3px 3px 3px 3px;
+        -moz-border-radius: 3px 3px 3px 3px;
+        -webkit-border-radius: 3px 3px 3px 3px;
+        border: 1px solid #000000;
+
+         margin-right: 3px;
+         margin-top:1%;
+         margin-left: 3%;
+
+         -webkit-box-shadow: 0px 7px 24px -6px rgba(0,0,0,0.75);
+        -moz-box-shadow: 0px 7px 24px -6px rgba(0,0,0,0.75);
+        box-shadow: 0px 7px 24px -6px rgba(0,0,0,0.75);
+
+
+         }
+         h4 {
+             text-align: center;
+         }
+
+        .stylish-input-group .input-group-addon{
+            background: white !important;
+        }
+        .stylish-input-group .form-control{
+            border-right:0;
+          box-shadow:0 0 0;
+          border-color:#ccc;
+        }
+        .stylish-input-group button{
+            border:0;
+            background:transparent;
+        }
+        h3 {
+            text-align: center;
+        }
+
+        #imaginary_container{
+
+            margin-top:5%;
+          margin-left:10px;
+        }
+
+        .alignright {
+            float: right;
+            margin-right : 20px;
+            color: black; }
+
+            body {
+              background-color: white;
+              font-family: "Roboto", helvetica, arial, sans-serif;
+              font-size: 20px;
+              font-weight: 100;
+              text-rendering: optimizeLegibility;
+            }
+
+            .texto{
+              font-family: "Roboto", helvetica, arial, sans-serif;
+              font-size: 15px;
+              font-weight: 100;
+              text-rendering: optimizeLegibility;
+
+             text-align: right;
+             font-weight: bold;
+
+            }
