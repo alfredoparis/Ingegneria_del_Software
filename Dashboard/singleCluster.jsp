@@ -1,7 +1,7 @@
 <%--
     Document   : singleCluster
     Created on : 29-dic-2017, 16.25.10
-    Author     : Alfredo
+    Author     : AD-TEAM
 --%>
 
 <%@page import="java.sql.ResultSet"%>
