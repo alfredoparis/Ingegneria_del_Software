@@ -1,7 +1,7 @@
 <%--
     Document   : Dashboard_Home
     Created on : 28-dic-2017, 19.38.27
-    Author     : Alfredo
+    Author     : AD-TEAM
 --%>
 
 <%@page import="java.sql.DriverManager"%>
